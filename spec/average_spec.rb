@@ -17,7 +17,7 @@ describe 'average' do
     expect( average(numbers: [3,7,5,6]) ).to eq 5.25
   end
 
-  it  'should return if numbers is [3,5]' do
+  it  'should return 4 if numbers is [3,5]' do
     expect( average(numbers: [3,5]) ).to eq 4
   end
 
